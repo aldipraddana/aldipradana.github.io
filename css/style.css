@@ -495,8 +495,8 @@ footer {
   .img{
     padding-left: 75px !important;
   }
-  .nav ul li {
-    padding-left: 5px !important;
+  .nav ul li a{
+    padding-left: 8px !important;
   }
 .content2{
   height: 1900px;
