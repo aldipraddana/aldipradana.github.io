@@ -230,7 +230,7 @@ nav {
     position: absolute;
 /*     width: 25px;
     height: 25px; */
-    background: var(--wowcolor);
+/*     background: var(--wowcolor); */
     /* border-radius: 50%; */
     top: 50%;
     transform: translateY(-50%);
