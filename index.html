@@ -12,17 +12,43 @@
 <body>
 
   <div class="bg1" id="0">
-    <nav>
-      <div class="nav top">
+    <!-- <nav>
+      <div class="tblmenubox">
+        <div class="togel tblmenu">
+
+        </div>
+      </div>
+      <div class="nav top menu">
         <ul>
           <li> <a href="#0">Home</a> </li>
           <li> <a href="#1">Address</a> </li>
           <li> <a href="#2">History</a> </li>
           <li> <a href="#3">My Skil</a> </li>
-          <li> <a href="#4">My Activity</a></li>
+          <li> <a href="#4" style="padding-right:25px;">My Activity</a></li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
+<nav>
+  <div class="wrap">
+  <div class="title">
+    <strong>Aldi Pradana;</strong>   
+  </div>
+  <div class="tblmenubox">
+    <div class="togel tblmenu">
+
+    </div>
+  </div>
+  <div class="menu">
+    <ul>
+      <li> <a href="#0">Home</a> </li>
+      <li> <a href="#1">Address</a> </li>
+      <li> <a href="#2">History</a> </li>
+      <li> <a href="#3">My Skil</a> </li>
+      <li> <a href="#4">My Activity</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
     <div class="box-03">
       <div class="img">
         <img src="img\alditampan.png" alt="">
@@ -227,4 +253,9 @@
 </body>
 
 </html>
-<script src="js/script.js"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+  $(".togel.tblmenu").click(function () {
+    $(".menu").toggleClass("sh");
+  });
+</script>
