@@ -231,7 +231,7 @@ nav {
     width: 25px;
     height: 25px;
     background: var(--wowcolor);
-    border-radius: 50%;
+    /* border-radius: 50%; */
     top: 50%;
     transform: translateY(-50%);
 }
