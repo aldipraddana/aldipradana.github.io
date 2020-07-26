@@ -9,7 +9,7 @@
 
 const submit_ = () => {
   let val = $('.getvalue').val();
-  val = val..toLowerCase();
+  val = val.toLowerCase();
   if (val == 'aldi pradana' || val == 'aldipradana') {
     UIkit.modal('#modal-center').show();
   }else {
