@@ -9,17 +9,15 @@
    box-sizing: border-box;
    outline: none;
 }
+ */
+ body {
+  background: #fcfff6 !important;
+  font-family: 'Open Sans', sans-serif;
+ }
 
-body {
-   margin: 0;
-   padding: 30px 0;
-   font-family: 'Roboto', sans-serif;
-   background: #F1F2F6;
-} */
 html {
   scroll-behavior: smooth;
 }
-
 
 .container {
    width: 80%;
